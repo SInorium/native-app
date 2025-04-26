@@ -1,3 +1,2 @@
-export {EyeClosedIcon} from './eye-closed'
-export {EyeOpenedIcon} from './eye-opened'
-
+export { EyeClosedIcon } from './eye-closed';
+export { EyeOpenedIcon } from './eye-opened';
