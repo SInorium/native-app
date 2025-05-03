@@ -41,7 +41,7 @@ export const ErrorNotification: React.FC<IErrorNotification> = ({ errorText }) =
 					],
 				},
 			]}
-			onLayout={onEnter}
+			onLayout={() => onEnter}
 		>
 			<Text style={styles.error_text}>{errorText}</Text>
 		</Animated.View>
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 		backgroundColor: COLORS.red,
 		padding: 15,
 		position: 'absolute',
-		top: 50,
+		top: 0,
 	},
 	error_text: {
 		color: COLORS.white,

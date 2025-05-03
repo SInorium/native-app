@@ -1,5 +1,5 @@
-import { Animated, Pressable, PressableProps, StyleSheet, Text } from 'react-native';
 import React, { useRef } from 'react';
+import { Animated, Pressable, PressableProps, StyleSheet, Text } from 'react-native';
 
 import { COLORS, FONTS, RADIUS } from '../tokens';
 

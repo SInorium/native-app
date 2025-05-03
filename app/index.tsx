@@ -1,3 +1,4 @@
+import { Link } from 'expo-router';
 import { useState } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 
@@ -43,7 +44,9 @@ export default function App() {
 					/>
 					<Button title={button.enter} onPress={alert} />
 				</View>
-				<Text style={styles.button}>{button.recoverPass}</Text>
+				<Link href={'/restore'}>
+					<Text style={styles.button}>{button.recoverPass}</Text>
+				</Link>
 			</View>
 		</View>
 	);
