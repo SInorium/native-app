@@ -21,4 +21,15 @@ export const RADIUS = {
 export const FONTS = {
 	text16: 16,
 	text18: 18,
+	firaSans: "FiraSans",
+	firaSemiBold: "FiraSansSemiBold"
 };
+
+export const bold18 = {
+	fontSize: FONTS.text18,
+	fontFamily: FONTS.firaSemiBold,
+}
+export const regular16 = {
+	fontSize: FONTS.text16,
+	fontFamily: FONTS.firaSans,
+}

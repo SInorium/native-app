@@ -1,8 +1,7 @@
-import { Link } from 'expo-router';
 import { useState } from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 
-import { Button, ErrorNotification, Input } from '../shared';
+import { Button, CustomLink, ErrorNotification, Input } from '../shared';
 import { COLORS, GAPS } from '../shared/tokens';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const LOGO_PNG = require('../assets/logo.png');
@@ -44,9 +43,7 @@ export default function App() {
 					/>
 					<Button title={button.enter} onPress={alert} />
 				</View>
-				<Link href={'/restore'}>
-					<Text style={styles.button}>{button.recoverPass}</Text>
-				</Link>
+				<CustomLink message={button.recoverPass} href={'/restoreqwe'} />
 			</View>
 		</View>
 	);
@@ -69,8 +66,5 @@ const styles = StyleSheet.create({
 	},
 	logo: {
 		width: 220,
-	},
-	button: {
-		backgroundColor: COLORS.primary,
 	},
 });
