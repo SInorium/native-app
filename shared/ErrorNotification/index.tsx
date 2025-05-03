@@ -59,5 +59,6 @@ const styles = StyleSheet.create({
 	error_text: {
 		color: COLORS.white,
 		fontSize: FONTS.text16,
+		fontFamily: 'FiraSans',
 	},
 });

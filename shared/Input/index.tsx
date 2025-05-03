@@ -42,5 +42,6 @@ const styles = StyleSheet.create({
 		fontSize: 16,
 		height: 58,
 		lineHeight: 1.2,
+		fontFamily: 'FiraSansRegular',
 	},
 });
