@@ -19,6 +19,7 @@ const labels = {
 export default function App() {
 	const { button, input } = labels;
 	const [error, setError] = useState('');
+
 	const alert = () => {
 		setError('Неверный пароль');
 	};
