@@ -1,7 +1,8 @@
-import { View, TextInput, StyleSheet, TextInputProps, Pressable } from 'react-native';
-import { COLORS, RADIUS } from '../tokens';
 import { useState } from 'react';
-import { EyeOpenedIcon, EyeClosedIcon } from '../../assets/icons';
+import { Pressable, StyleSheet, TextInput, TextInputProps, View } from 'react-native';
+
+import { EyeClosedIcon, EyeOpenedIcon } from '../../assets/icons';
+import { COLORS, RADIUS } from '../tokens';
 
 export const Input = (
 	props: TextInputProps & {
